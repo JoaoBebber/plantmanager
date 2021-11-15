@@ -6,12 +6,12 @@ import {
         StyleSheet
 } from 'react-native';
 
-import wateringImg from '../assets/watering.png';
+import wateringImg from '../assets/watering.svg';
 import { Button } from "../components/Button";
 import colors from "../styles/colors";
 
 export function Welcome () {
-        const [visible, setVisible] = useState(false);
+        const [visible, setVisible] = useState(true);
 
         function handleVisibility () {
                 setVisible(true);
